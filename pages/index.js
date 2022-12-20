@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import factory from "../ethereum/factory";
+import "semantic-ui-css/semantic.min.css";
 
 class CampaignIndex extends Component {
   static async getInitialProps() {
